@@ -1,0 +1,28 @@
+{
+  "models": {
+    "local-llm": {
+      "backend": "openai",
+      "model": "any",
+      "base_url": "http://127.0.0.1:5000/v1",
+      "api_key": "not-needed"
+    },
+    "gpt-4o": {
+      "backend": "openai",
+      "model": "gpt-5-nano",
+      "base_url": "https://api.openai.com/v1",
+      "api_key": "your-openai-api-key-here"
+    },
+    "claude-3.5-sonnet": {
+      "backend": "anthropic",
+      "model": "claude-4-5",
+      "api_key": "your-anthropic-api-key-here"
+    },
+    "gemini-2.0": {
+      "backend": "gemini",
+      "model": "gemini-2.0-flash-exp",
+      "api_key": "your-gemini-api-key-here"
+    }
+  },
+  "default_model": "local-llm",
+  "system_prompt": "You are a helpful assistant."
+}

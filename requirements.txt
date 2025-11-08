@@ -1,0 +1,4 @@
+textual>=0.47.0
+openai>=1.12.0
+anthropic>=0.18.0
+google-generativeai>=0.3.0
