@@ -1,5 +1,7 @@
 # Parley
 
+![Parley Chat Interface](https://i.imgur.com/mqO7fKT.png)
+
 A minimalist, performant chat interface for LLMs. Clean, simple, fast.
 
 ## Features
@@ -10,6 +12,16 @@ A minimalist, performant chat interface for LLMs. Clean, simple, fast.
 - **File-based persistence**: Each chat saved as JSON
 - **History navigation**: Up/Down arrows in input
 - **Incremental rendering**: No reactive thrashing, messages mount incrementally
+
+## Screenshots
+
+<a href="https://i.imgur.com/wd29JP8.png"><img src="https://i.imgur.com/wd29JP8.png" width="400" alt="Editing system prompt"></a>
+
+*Editing system prompt*
+
+<a href="https://i.imgur.com/EuVcu8s.png"><img src="https://i.imgur.com/EuVcu8s.png" width="400" alt="Custom system prompt response"></a>
+
+*Response with edited system prompt*
 
 ## Installation
 
